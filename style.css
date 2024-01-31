@@ -1,0 +1,84 @@
+body {
+    box-sizing:border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* :root {
+    --main-color: red;
+} */
+/* Start Navbar */
+nav {
+    background-color: rgb(0 0 0 / 0.9);
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    color: rgb(255, 48, 91);
+    /* color: var(--main-color); */
+    font-weight: bold;
+}
+nav .list {
+    width: 70%;
+}
+nav .list ul {
+    display: flex;
+    list-style-type:none;
+    justify-content: space-evenly;
+}
+/* End Navbar */
+
+/* Start Home Section */
+.home {
+    height:90vh;
+    background-image: url(img/slider-01.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.txt {
+    text-align: center;
+}
+.txt span {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.txt h1 {
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.txt p {
+    font-size: 26px;
+    color:#6d6d6d;
+}
+/* End Home Section */
+
+/* Start About Section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.about .about-txt {
+    width: 50%;
+    text-align: center;
+    padding: 0 20px;
+}
+.about .image {
+    width: 50%;
+}
+.about .image img {
+    width: 100%;
+}
+/* End About Section */
